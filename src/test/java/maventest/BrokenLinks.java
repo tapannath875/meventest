@@ -37,7 +37,7 @@ public class BrokenLinks {
 		urlList.parallelStream().forEach(e -> checkBrokenLinks(e));
 		long endtime = System.currentTimeMillis();
 
-		System.out.println("total time taken:   " + (endtime - starttime));
+		System.out.println("total time taken:  " + (endtime - starttime));
 
 		driver.quit();
 	}
